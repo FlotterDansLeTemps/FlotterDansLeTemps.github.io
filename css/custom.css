@@ -1,0 +1,28 @@
+/* custom.css - 全屏背景图封面样式 */
+
+.home-info-wrapper {
+    background-image: url("/images/home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10rem 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* 隐藏默认头像图 */
+  .home-info img {
+    display: none;
+  }
+  
+  .home-info h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .home-info p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  
